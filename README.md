@@ -66,3 +66,20 @@ securely (e.g. safe, safety deposit box) or destroy it after transferring
 the wallet to its permanent storage, never photograph or scan it, and
 never enter its contents into an internet-connected device except through
 SeedSigner's own dice-entry flow.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## Disclaimer
+
+This project is provided for educational and convenience purposes only.
+It is offered as-is, without warranty of any kind, express or implied,
+including any warranty of merchantability, fitness for a particular purpose,
+or non-infringement.
+
+Use of this worksheet is entirely at the user's own risk. Users are solely
+responsible for verifying the security, correctness, legality, and suitability
+of their own use case. The author makes no guarantees about compatibility,
+recovery accuracy, or operational safety, and is not liable for any loss,
+damage, or other consequences arising from the use of this project.
