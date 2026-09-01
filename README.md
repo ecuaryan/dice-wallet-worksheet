@@ -4,23 +4,16 @@ A one-page, print-ready worksheet for creating a [SeedSigner](https://seedsigner
 Bitcoin wallet from physical dice rolls, including a dice-generated
 hexadecimal BIP-39 passphrase.
 
-Generates a single letter-size PDF with four sections:
+Generates a single letter-size PDF with four main sections:
 
 1. **Dice Rolls** — a 10x10 grid for recording d6 rolls, supporting both
    50-roll (12-word) and 99-roll (24-word) seed flows.
-2. **Seed Words** — numbered blank lines for the resulting BIP-39 mnemonic,
-   plus a confirmation line for the seed's fingerprint.
-3. **Seed QR** — three blank QR templates (21x21, 25x25, and 29x29)
-   with 21x21 and 25x25 side-by-side on the first row and 29x29 centered
-   beneath them, so all three templates can be larger while staying in the
-   same worksheet area.
-4. **Dice Generated Hexadecimal Passphrase** — a dice-to-hex lookup table
-   (2 dice per digit, 4 bits of entropy per digit) and an 8x4 grid for
-   recording a 32-digit (128-bit) passphrase, plus a boxed confirmation
-   for the wallet's final fingerprint once the passphrase is applied.
+2. **Seed Words** — numbered blank lines for the resulting BIP-39 mnemonic.
+3. **Seed QR** — three blank QR templates sized for SeedSigner output.
+4. **Dice Generated Hexadecimal Passphrase** — a dice-to-hex lookup and
+   passphrase grid for recording a 32-digit (128-bit) value.
 
-A notes section with wide writing lines fills the remaining space at the
-bottom of the page.
+A notes section is included at the bottom for any extra notes or wallet details.
 
 <p align="center">
   <img src="preview.png" width="500" alt="Worksheet preview">
