@@ -40,24 +40,6 @@ The PDF is written to `output/dice_wallet_worksheet.pdf` by default. Use
 python3 generate_worksheet.py -o ~/Desktop/worksheet.pdf
 ```
 
-## Layout notes
-
-All layout math lives in `generate_worksheet.py`, organized as one
-function per section (`draw_dice_grid`, `draw_seed_words`, `draw_seed_qr`,
-`draw_hex_table`, `draw_passphrase_grid_and_fingerprint`, `draw_notes`).
-Each function returns the y-coordinate(s) the next section needs, so the
-page assembles top-to-bottom in `build()`. Shared constants (margins,
-colors, title text) are collected at the top of the file.
-
-## Assets
-
-`assets/fingerprint.png` and the three QR template images are embedded
-directly into the PDF rather than redrawn. The 25x25 template is the original
-worksheet asset; the 21x21 and 29x29 templates are rendered from the supplied
-PDF templates and lightly normalized for print-friendly grid-line contrast.
-The original supplied 21x21 and 29x29 PDFs are also retained under
-`assets/source_templates/`.
-
 ## Security
 
 This worksheet is meant to hold sensitive wallet material once filled
