@@ -67,6 +67,12 @@ the wallet to its permanent storage, never photograph or scan it, and
 never enter its contents into an internet-connected device except through
 SeedSigner's own dice-entry flow.
 
+## Attribution
+
+This project includes QR template assets and the fingerprint icon adapted
+from the SeedSigner project, which are licensed under the MIT License.
+Copyright (c) 2021 SeedSigner.
+
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
