@@ -13,7 +13,7 @@ Generates a single letter-size PDF with four main sections:
 2. **Seed Words** — numbered blank lines for the resulting BIP-39 mnemonic.
 3. **Seed QR** — three blank QR templates sized for SeedSigner output.
 4. **Dice Generated Hexadecimal Passphrase** — a dice-to-hex lookup and
-   passphrase grid for recording a 32-digit (128-bit) value.
+   passphrase grid for recording up to a 32-digit (128-bit) value.
 
 A notes section is included at the bottom for any extra notes or wallet details.
 
@@ -56,13 +56,16 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ## Disclaimer
 
-This project is provided for educational and convenience purposes only.
-It is offered as-is, without warranty of any kind, express or implied,
+This project is provided as-is, without warranty of any kind, express or implied,
 including any warranty of merchantability, fitness for a particular purpose,
 or non-infringement.
 
-Use of this worksheet is entirely at the user's own risk. Users are solely
-responsible for verifying the security, correctness, legality, and suitability
-of their own use case. The author makes no guarantees about compatibility,
-recovery accuracy, or operational safety, and is not liable for any loss,
-damage, or other consequences arising from the use of this project.
+This worksheet is not a secure backup system, a guarantee of recovery,
+or a substitute for independent verification. Use of this worksheet is entirely
+at the user's own risk. Users are solely responsible for verifying the security,
+correctness, legality, and suitability of their own use case, and for ensuring
+that any generated dice rolls, seed words, or wallet material are handled
+appropriately. The author makes no guarantees about compatibility, recovery
+accuracy, operational safety, or the correctness of any generated data, and is
+not liable for any loss, damage, or other consequences arising from the use of
+this project.

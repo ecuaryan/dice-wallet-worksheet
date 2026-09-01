@@ -514,6 +514,11 @@ def build(output_path: str):
     sec2_bottom = min(footer_bottom, box_bottom - 0.1 * inch)
     draw_notes(cnv, sec2_bottom)
 
+    cnv.setFillColorRGB(0.75, 0.75, 0.75)
+    cnv.setFont("Helvetica-Oblique", 7)
+    cnv.drawString(MARGIN_X, 0.20 * inch, "Use at your own risk — know what you're doing")
+    cnv.setFillColorRGB(0, 0, 0)
+
     cnv.setFont("Helvetica-Bold", 8)
     cnv.drawRightString(PAGE_W - MARGIN_X, 0.22 * inch, "v1.0")
 
