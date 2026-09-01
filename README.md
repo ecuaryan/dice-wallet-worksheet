@@ -2,7 +2,9 @@
 
 A one-page, print-ready worksheet for creating a [SeedSigner](https://seedsigner.com/)
 Bitcoin wallet from physical dice rolls, including a dice-generated
-hexadecimal BIP-39 passphrase.
+hexadecimal BIP-39 passphrase. The 12-word/24-word seed workflows are based on
+the [Diceware word list](https://theworld.com/~reinhold/diceware.txt), commonly
+used for dice-derived BIP-39 entropy.
 
 Generates a single letter-size PDF with four main sections:
 
